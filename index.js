@@ -15,7 +15,8 @@ function printNumbers(numbers) {
 // ANSWER: O(n)
 
 // Q: What is the space complexity?
-// ANSWER: O(n)
+// ANSWER: O(1)
+//??
 
 
 
@@ -38,15 +39,14 @@ function findFourth(numbers) {
   }
 
 // Q: What is the time complexity of of this solution?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 // Q: Given an array of numbers, what is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 
 // Q: Could you come up with a solution that has a better time complexity? If so, write out that solution and note the time complexity. If not, why not?
-// ANSWER: Yes
-const anotherSolution = numbers => {return numbers[3]}
+// ANSWER: No, because the code can only be run four times
 
 
 // 3) -------------------------------------------------------
@@ -71,8 +71,8 @@ function printB(number) {
 // ANSWER: O(n)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n)
-
+// ANSWER: O(1)
+//??
 
 
 // 5) -------------------------------------------------------
@@ -84,10 +84,11 @@ function printC(num, arr) {
   }
 }
 // Q: What is the time complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(1)
+//??
 
 
 // 6) -------------------------------------------------------
@@ -102,7 +103,7 @@ function nested(numbers) {
 // ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n^2)
+// ANSWER: O(1)
 
 
 
@@ -113,10 +114,10 @@ let newNumbersA = numbers.filter((num) => {
   return num < 5
 })
 // Q: What is the time complexity of the filter higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 // Q: What is the space complexity of the filter higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 8) -------------------------------------------------------
@@ -195,7 +196,7 @@ function arrInception(parentArr) {
     }
   }
   // Q: What is the space complexity of this function?
-  // ANSWER: O(n)
+  // ANSWER: O(1)
   
   
 // 14) You are challenged to find the squared value of each number in an array. This is not the best solution, but it is what you come up with anyway...
@@ -213,7 +214,7 @@ function getNumbersSquared(numbers) {
 }
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(2)
+// ANSWER: O(n)
 
 
 // Q: Is it possible to improve this function's space complexity? If it is, write a new function below.
@@ -284,7 +285,7 @@ function countLettersRoundTwo(str) {
 
 
 // Q: Do these functions have the same space complexity?
-// ANSWER: Yes?
+// ANSWER: Yes
 
 
 // Q: What is the space complexity of each? 
